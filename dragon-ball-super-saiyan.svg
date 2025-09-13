@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="300" viewBox="0 0 200 300">
+  <defs>
+    <linearGradient id="saiyanGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#CBA35B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E5484D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Base -->
+  <rect x="80" y="250" width="40" height="20" rx="5" fill="#101010"/>
+  
+  <!-- Figurine body -->
+  <ellipse cx="100" cy="200" rx="25" ry="40" fill="url(#saiyanGradient)"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="140" r="20" fill="#F8F6F2"/>
+  
+  <!-- Eyes -->
+  <circle cx="95" cy="135" r="3" fill="#101010"/>
+  <circle cx="105" cy="135" r="3" fill="#101010"/>
+  
+  <!-- Spiky hair -->
+  <path d="M85,125 Q90,110 95,120 Q100,105 105,120 Q110,110 115,125 Q110,120 100,115 Q90,120 85,125" fill="#CBA35B"/>
+  <path d="M90,120 Q95,105 100,115 Q105,105 110,120" fill="#CBA35B"/>
+  
+  <!-- Arms -->
+  <ellipse cx="75" cy="180" rx="8" ry="25" fill="url(#saiyanGradient)"/>
+  <ellipse cx="125" cy="180" rx="8" ry="25" fill="url(#saiyanGradient)"/>
+  
+  <!-- Legs -->
+  <ellipse cx="90" cy="240" rx="10" ry="20" fill="url(#saiyanGradient)"/>
+  <ellipse cx="110" cy="240" rx="10" ry="20" fill="url(#saiyanGradient)"/>
+  
+  <!-- Dragon Ball symbol -->
+  <circle cx="100" cy="160" r="8" fill="#E5484D"/>
+  <text x="100" y="165" font-family="Inter, sans-serif" font-size="8" font-weight="700" fill="#F8F6F2" text-anchor="middle">★</text>
+  
+  <!-- Banpresto label -->
+  <text x="100" y="280" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#101010" text-anchor="middle">BANPRESTO</text>
+</svg>

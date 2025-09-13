@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <radialGradient id="vinylGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#2a2a2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#101010;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <!-- Vinyl disc -->
+  <circle cx="150" cy="150" r="140" fill="url(#vinylGradient)" stroke="#CBA35B" stroke-width="3"/>
+  <circle cx="150" cy="150" r="20" fill="#101010"/>
+  <circle cx="150" cy="150" r="15" fill="#CBA35B"/>
+  
+  <!-- Grooves -->
+  <circle cx="150" cy="150" r="30" fill="none" stroke="#333" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="150" cy="150" r="50" fill="none" stroke="#333" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="150" cy="150" r="70" fill="none" stroke="#333" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="150" cy="150" r="90" fill="none" stroke="#333" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="150" cy="150" r="110" fill="none" stroke="#333" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="150" cy="150" r="130" fill="none" stroke="#333" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Cover insert -->
+  <rect x="50" y="50" width="200" height="200" rx="8" fill="#1a1a2e" stroke="#CBA35B" stroke-width="2"/>
+  
+  <!-- Album title -->
+  <text x="150" y="120" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#CBA35B" text-anchor="middle">KIND OF BLUE</text>
+  <text x="150" y="140" font-family="Inter, sans-serif" font-size="14" font-weight="500" fill="#F8F6F2" text-anchor="middle">MILES DAVIS</text>
+  
+  <!-- Year badge -->
+  <rect x="60" y="60" width="40" height="20" rx="10" fill="#E5484D"/>
+  <text x="80" y="72" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#F8F6F2" text-anchor="middle">1959</text>
+  
+  <!-- Columbia label -->
+  <text x="150" y="200" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#CBA35B" text-anchor="middle">COLUMBIA</text>
+  <text x="150" y="215" font-family="Inter, sans-serif" font-size="10" fill="#F8F6F2" text-anchor="middle">RECORDS</text>
+</svg>

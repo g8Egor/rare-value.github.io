@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="300" viewBox="0 0 200 300">
+  <defs>
+    <pattern id="halftone3" patternUnits="userSpaceOnUse" width="4" height="4">
+      <circle cx="2" cy="2" r="0.5" fill="#333" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <!-- Comic cover -->
+  <rect x="10" y="10" width="180" height="280" rx="4" fill="#CBA35B" stroke="#101010" stroke-width="2"/>
+  
+  <!-- Background pattern -->
+  <rect x="15" y="15" width="170" height="270" fill="url(#halftone3)" opacity="0.1"/>
+  
+  <!-- Main title -->
+  <text x="100" y="60" font-family="Inter, sans-serif" font-size="28" font-weight="900" fill="#101010" text-anchor="middle">X-MEN</text>
+  
+  <!-- Issue number -->
+  <rect x="70" y="80" width="60" height="30" rx="15" fill="#E5484D"/>
+  <text x="100" y="100" font-family="Inter, sans-serif" font-size="20" font-weight="800" fill="#F8F6F2" text-anchor="middle">#1</text>
+  
+  <!-- X-Men team silhouette -->
+  <circle cx="80" cy="160" r="15" fill="#101010"/>
+  <circle cx="120" cy="160" r="15" fill="#101010"/>
+  <circle cx="100" cy="180" r="15" fill="#101010"/>
+  <circle cx="70" cy="190" r="12" fill="#101010"/>
+  <circle cx="130" cy="190" r="12" fill="#101010"/>
+  
+  <!-- X symbol -->
+  <path d="M90,150 L110,170 M110,150 L90,170" stroke="#E5484D" stroke-width="3"/>
+  
+  <!-- Year badge -->
+  <rect x="20" y="20" width="40" height="20" rx="10" fill="#E5484D"/>
+  <text x="40" y="32" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#F8F6F2" text-anchor="middle">1963</text>
+  
+  <!-- Marvel logo -->
+  <text x="100" y="250" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#101010" text-anchor="middle">MARVEL</text>
+  <text x="100" y="265" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#101010" text-anchor="middle">COMICS</text>
+  
+  <!-- Price -->
+  <rect x="140" y="20" width="40" height="20" rx="10" fill="#101010"/>
+  <text x="160" y="32" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#CBA35B" text-anchor="middle">12¢</text>
+</svg>

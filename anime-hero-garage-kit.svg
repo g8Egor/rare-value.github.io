@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="300" viewBox="0 0 200 300">
+  <defs>
+    <linearGradient id="figurineGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#CBA35B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E5484D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Base -->
+  <rect x="80" y="250" width="40" height="20" rx="5" fill="#101010"/>
+  
+  <!-- Figurine body -->
+  <ellipse cx="100" cy="200" rx="25" ry="40" fill="url(#figurineGradient)"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="140" r="20" fill="#F8F6F2"/>
+  
+  <!-- Eyes -->
+  <circle cx="95" cy="135" r="3" fill="#101010"/>
+  <circle cx="105" cy="135" r="3" fill="#101010"/>
+  
+  <!-- Hair -->
+  <path d="M85,125 Q100,110 115,125 Q110,120 100,115 Q90,120 85,125" fill="#CBA35B"/>
+  
+  <!-- Arms -->
+  <ellipse cx="75" cy="180" rx="8" ry="25" fill="url(#figurineGradient)"/>
+  <ellipse cx="125" cy="180" rx="8" ry="25" fill="url(#figurineGradient)"/>
+  
+  <!-- Legs -->
+  <ellipse cx="90" cy="240" rx="10" ry="20" fill="url(#figurineGradient)"/>
+  <ellipse cx="110" cy="240" rx="10" ry="20" fill="url(#figurineGradient)"/>
+  
+  <!-- Limited edition ribbon -->
+  <rect x="20" y="20" width="60" height="25" rx="12" fill="#E5484D"/>
+  <text x="50" y="35" font-family="Inter, sans-serif" font-size="8" font-weight="700" fill="#F8F6F2" text-anchor="middle">1/150</text>
+  
+  <!-- Signature badge -->
+  <rect x="120" y="20" width="60" height="25" rx="12" fill="#CBA35B"/>
+  <text x="150" y="35" font-family="Inter, sans-serif" font-size="8" font-weight="700" fill="#101010" text-anchor="middle">SIGNED</text>
+  
+  <!-- Studio Ghibli label -->
+  <text x="100" y="280" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#101010" text-anchor="middle">STUDIO GHIBLI</text>
+</svg>

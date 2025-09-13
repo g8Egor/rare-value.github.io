@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <radialGradient id="vinylGradient3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#2a2a2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#101010;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <!-- Vinyl disc -->
+  <circle cx="150" cy="150" r="140" fill="url(#vinylGradient3)" stroke="#CBA35B" stroke-width="3"/>
+  <circle cx="150" cy="150" r="20" fill="#101010"/>
+  <circle cx="150" cy="150" r="15" fill="#CBA35B"/>
+  
+  <!-- Grooves -->
+  <circle cx="150" cy="150" r="30" fill="none" stroke="#333" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="150" cy="150" r="50" fill="none" stroke="#333" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="150" cy="150" r="70" fill="none" stroke="#333" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="150" cy="150" r="90" fill="none" stroke="#333" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="150" cy="150" r="110" fill="none" stroke="#333" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="150" cy="150" r="130" fill="none" stroke="#333" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Cover insert -->
+  <rect x="50" y="50" width="200" height="200" rx="8" fill="#000000" stroke="#CBA35B" stroke-width="2"/>
+  
+  <!-- Prism design -->
+  <polygon points="100,80 200,80 150,150" fill="#E5484D"/>
+  <polygon points="100,80 150,150 100,150" fill="#CBA35B"/>
+  <polygon points="200,80 200,150 150,150" fill="#F8F6F2"/>
+  
+  <!-- Album title -->
+  <text x="150" y="180" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#F8F6F2" text-anchor="middle">THE DARK SIDE</text>
+  <text x="150" y="195" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#F8F6F2" text-anchor="middle">OF THE MOON</text>
+  <text x="150" y="210" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#CBA35B" text-anchor="middle">PINK FLOYD</text>
+  
+  <!-- Year badge -->
+  <rect x="60" y="60" width="40" height="20" rx="10" fill="#E5484D"/>
+  <text x="80" y="72" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#F8F6F2" text-anchor="middle">1973</text>
+  
+  <!-- Harvest label -->
+  <text x="150" y="230" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#CBA35B" text-anchor="middle">HARVEST</text>
+</svg>
